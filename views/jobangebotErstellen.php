@@ -3,7 +3,7 @@ $titel = "Jobangebot erstellen";
 include "kopf.php";
 ?>
 
-<script src="./../JS/jobangebotErstellen.js"></script>
+
 
 <body>
     <form id="formular" action="../controller/conJE.php" method="post">
@@ -18,7 +18,5 @@ include "kopf.php";
 
         <input type="submit" value="Speichern">
     </form>
-
-<?php
-include "fuss.php";
-?>
+    <script src="../js/jobangebotErstellen.js"></script>
+  <?php  include "fuss.php";?>
